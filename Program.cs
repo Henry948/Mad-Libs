@@ -17,12 +17,30 @@ namespace MadLibs
       // Story variable are here
       Console.Write("Enter a name: ");
       string name = Console.Readline();
+
       Console.Write("State an adjective: ");
       string adj1 = Console.ReadLine();
+
       Console.Write("State a second adjective: ");
       string adj2 = Console.ReadLine();
+
       Console.Write("State a third adjective: ");
       string adj3 = Console.ReadLine();
+
+      Console.Write("State a verb: ");
+      string verb = Console.ReadLine();
+
+      Console.Write("State a noun: ");
+      string noun1 = Console.ReadLine();
+
+      Console.Write("State a second noun: ");
+      string noun2 = Console.ReadLine();
+
+      Console.Write("Please state a superhero");
+      string superhero = Console.ReadLine();
+
+      
+
 
 
       // The template for the story:
